@@ -18,6 +18,6 @@
 //#define LOTTIE_IMAGE_MODULE_SUPPORT
 
 // enable lottie model caching
-#define LOTTIE_CACHE_SUPPORT
+//#define LOTTIE_CACHE_SUPPORT
 
 #endif  // CONFIG_H
