@@ -43,6 +43,6 @@ rlottie is a platform independent standalone c++ library for rendering vector ba
 
   # fix 'rlottiecommon.h' file not found with <angled> include; use "quotes" instead
   s.prepare_command = <<-CMD
-                      sed -i.bak 's/<rlottiecommon.h>/"rlottiecommon.h"/g' './rlottie/inc/rlottie_capi.h'
+                      sed -i.bak 's/<rlottiecommon.h>/"rlottiecommon.h"/g' 'rlottie/inc/rlottie_capi.h'
                       CMD
 end
